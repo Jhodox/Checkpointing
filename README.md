@@ -31,6 +31,16 @@ def load_file() -> None:
             print("[-] Error al restaurar la ultima conversión")
 ```
 ## Funcionamiento
+>Podemos observar que el programa es abierto y cerrado mediante la terminal
 
->
-![Función]("")
+> Primera vez que la calculadora es abierta e ingresamos cualquier caracter del teclado
+<img src="https://github.com/Jhodox/Checkpointing/blob/main/2024-09-01_104616_1.png?raw=true">
+
+> Segunda vez que la calculadora es abierta
+<img src="https://github.com/Jhodox/Checkpointing/blob/main/2024-09-01_104639_1.png?raw=true">
+
+> Obtenemos el resultado
+<img src="https://github.com/Jhodox/Checkpointing/blob/main/2024-09-01_104707.png?raw=true">
+
+> Volvemos a cerrar la calculadora y la volvemos a abrir
+<img src="https://github.com/Jhodox/Checkpointing/blob/main/2024-09-01_104718.png?raw=true">
