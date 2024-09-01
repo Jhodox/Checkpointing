@@ -4,7 +4,7 @@ Generar un programa que sea capaz de restaurar el estado de ejecución
 ## Pickle
 Se trata de una libreria para python que nos permite guardar de manera binaria utilizando serialización casi cualquier tipo de dato en python. La ventaja de que se guarde de manera binaria es que un humano no puede leer la información almacenada y es posible enviar esta información a otro sistema evitando en gran medida la perdida de información.
 
-## Función para guardar datos en un documento
+## Guardar datos en un documento
 La función `dump()` nos permite serializar un objeto y guardarlo en un archivo, en este caso se trata de la cadena que se muestra en el display de la calculadora
 ```
 def save() -> None:
@@ -13,7 +13,7 @@ def save() -> None:
         pickle.dump(display.get(), file)
 ```
 
-## Función para guardar datos en un documento
+## Cargar los datos de un documento
 La función `load()` nos permite deserializar un archivo y almacenarlo en una variable
 ```
 def load_file() -> None:
