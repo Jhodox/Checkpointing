@@ -28,7 +28,7 @@ def load_file() -> None:
         if loaded_data != "0":
             cleanZero()
             display.insert(0, loaded_data)
-            try:
+            try:ñ
                 updateConversor(int(loaded_data))
             except:
                 print("[-] Error al restaurar la ultima conversión")
